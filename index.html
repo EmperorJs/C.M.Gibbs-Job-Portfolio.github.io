@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Coy M. Gibbs Port-Folio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('/w3images/parallax1.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("/w3images/parallax2.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("/w3images/parallax3.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Skills</a>
+    <a href="#About Coy M. Gibbs" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> About Coy M. Gibbs</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Contact Information</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">Skills</a>
+    <a href="#Professional Links" class="w3-bar-item w3-button" onclick="toggleFunction()">About Coy M. Gibbs</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">Contact Information</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Coy M.  <span class="w3-hide-small">Gibbs </span> Port-Folio</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="Skills">
+  <h3 class="w3-center">Skills</h3>
+  <p class="w3-left"><p>I am a professional in Office 365 (Microsoft Word, Excel & Visio)</p></p>
+  <p>
+  <p class="w3-left"><p>I am have a fair knowledge in Web design.</p></p>
+  <p>
+<p class="w3-left"><p>Tutoring Information Technology, Chinese and other management skills.</p></p>
+  <p>
+  <p class="w3-left"><p>I am also a professional in Data Mining usig several machine learning languages (Phyton & R programming). This has been my research area over the pass few years.</p></p>
+  <p>
+  
+
+
+<div class="w3-content w3-container w3-padding-64" id="Skills">
+  <h3 class="w3-center">Professional Awards</h3>
+  <p class="w3-left"><p>I was awarded in 2012 with as a scholarship to Chinese to study the Chinese language and Communication Engineering.</p></p>
+  <p>
+  <p class="w3-left"><p>I was awarded again in 2018 to study at Nankai University for two years in the area of Software Engineering.</p></p>
+  <p>
+  <p class="w3-left"><p>I was given a certificate of achievement for taking part in the Effective Speaking course in 2021.</p></p>
+  <p>
+  <p class="w3-left"><p>I was given a certificate of achievement for taking part in the Effective Speaking course in 2021.</p></p>
+  <p>
+
+
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">About Coy M. Gibbs</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="About Coy M. Gibbs">
+  <h3 class="w3-center">About Coy M. Gibbs</h3>
+  <p class="w3-center"><em>In 2009, I worked as a part-time teacher at the Programme for Adolescent Mothers, where I thought Mathematics and Information Technology.<br>
+In 2016, I worked with the ministry of Finance as a System Programmer/ Website developer. Assisting in many tasks with the OECD and FATCA.<br>
+I started teaching part-time as the TAMCC IN 2021. I was responsible for instructing student in the Chinese Language. <br>
+At present, I am the Chinese Coordinator/ Translator for the China-Grenada Cooperative Project: Automotive Maintenance Program--Online Skill Training Course.<br></em></p><br>
+
+  <div class="w3-content w3-container w3-padding-64" id="About Coy M. Gibbs">
+  <h3 class="w3-center">My interest and hobbies</h3>
+  <p class="w3-left"><p>I utilize most of my spare time reading spiritual books and researching Software and their use.</p></p>
+  <p>
+  <p class="w3-left"><p>I love playing the Harp.</p></p>
+  <p>
+  <p class="w3-left"><p>I also take a keen interesting in the Chinese culture (writing, speaking and practising wushu).</p></p>
+  <p>
+</div>
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">Contact Information</span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Contact Information</h3>
+  <p class="w3-left"><p>Name: Coy M. Gibbs</p></p>
+  <p>
+  <p class="w3-left"><p>Address: Golf Course, St. George</p></p>
+  <p>
+<p class="w3-left"><p>Website: https://github.com/EmperorJs/C.M.Gibbs-Job-Portfolio.github.io.git</p></p>
+  <p>
+  <p class="w3-left"><p>Celphone #: 1 (473) 418-3831</p></p>
+  <p>
+  <p class="w3-left"><p>Email Address: Coygmcoygibbs77@gmail.com</p></p>
+  <p>
+
+
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Professional Links</h3>
+  <p class="w3-left"><p>Linkeln Profile: https://www.linkedin.com/in/coy-gibbs-a67102215/</p></p>
+  <p>
+  <p class="w3-left"><p>Github Profile: https://github.com/EmperorJs</p></p>
+  <p>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">Shoot me an email</h3>
+  <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Address: Golf Course, St. George<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Celphone #: 1 (473) 418-3831<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: Coygmcoygibbs77@gmail.com<br>
+      </div>
+      <p>Swing by for a cup of Golden Bliss Natural Teas Grenada's best teas, or leave me a note:</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://github.com/EmperorJs/C.M.Gibbs-Job-Portfolio.github.io.git" title="EmperorJs.CSS" target="_blank" class="w3-hover-text-green">EmperorJs.CSS</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
